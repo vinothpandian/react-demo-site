@@ -1,11 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
+import SectionTitle from '../SectionTitle';
 
 const Introduction = () => (
   <Row className="justify-content-center p-5">
-    <Col className="text-center" xs="12">
-      <h4>About Me</h4>
-    </Col>
+    <SectionTitle title="About Me" />
     <Col xs="12">
       I, who witnessed the murder of my multi-millionaire parents as a child, swore to avenge their
       deaths. I have trained extensively to achieve mental and physical perfection, mastering

@@ -1,10 +1,12 @@
 import React from 'react';
-import { Container } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 import Introduction from './Introduction';
+import Skills from './Skills';
 
 const Content = () => (
   <Container>
     <Introduction />
+    <Skills />
   </Container>
 );
 
