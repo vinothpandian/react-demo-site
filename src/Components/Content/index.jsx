@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+import Introduction from './Introduction';
 
 const Content = () => (
   <Container>
-    <h1 className="display-1">Welcome</h1>
+    <Introduction />
   </Container>
 );
 
