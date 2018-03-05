@@ -1,19 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card, CardHeader, CardBody, Col } from 'reactstrap';
+import { Card, CardHeader, CardBody } from 'reactstrap';
 
 const InfoCard = props => (
-  <Col sm="4" className="pt-3">
-    <Card className="text-center">
-      <CardHeader> {props.title} </CardHeader>
-      <CardBody> {props.children} </CardBody>
-    </Card>
-  </Col>
+  <Card className="text-center">
+    <CardHeader color="dark"> {props.title} </CardHeader>
+    <CardBody>
+      <img src={props.image} alt={props.title} width="128" />
+    </CardBody>
+  </Card>
 );
 
 InfoCard.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.element.isRequired,
+  image: PropTypes.string.isRequired,
 };
 
 export default InfoCard;

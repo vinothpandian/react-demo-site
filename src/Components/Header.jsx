@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Container } from 'reactstrap';
 
 const backgroundImage = require('../Assets/cover.jpg');
 
@@ -12,11 +12,13 @@ const style = {
 };
 
 const Header = () => (
-  <Row className="justify-content-center align-items-center text-center" style={style.header}>
-    <Col xs="auto">
-      <h1 className="text-white display-1">I am Batman</h1>
-    </Col>
-  </Row>
+  <Container fluid>
+    <Row className="justify-content-center align-items-center text-center" style={style.header}>
+      <Col xs="auto">
+        <h1 className="text-white display-1">I am Batman</h1>
+      </Col>
+    </Row>
+  </Container>
 );
 
 export default Header;

@@ -1,12 +1,14 @@
 import React from 'react';
-import { Container, Row } from 'reactstrap';
+import { Container } from 'reactstrap';
 import Introduction from './Introduction';
 import Skills from './Skills';
+import Projects from './Projects';
 
 const Content = () => (
   <Container>
     <Introduction />
     <Skills />
+    <Projects />
   </Container>
 );
 
