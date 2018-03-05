@@ -22,7 +22,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <Row>
+      <Row id="projects">
         <Col xs="12">
           <SectionTitle title="Recent Projects" />
           <Card>

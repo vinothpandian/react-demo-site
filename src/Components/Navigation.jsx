@@ -29,10 +29,10 @@ class Navigation extends Component {
         <Collapse isOpen={this.state.open} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="#">Profile</NavLink>
+              <NavLink href="#projects">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Contact</NavLink>
+              <NavLink href="#contactme">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
