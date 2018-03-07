@@ -63,7 +63,7 @@ class ContactForm extends Component {
         <SectionTitle title="Contact Me" />
         <FormGroup row>
           <Label for="fullName" xs={2}>
-            Full Name
+            Name
           </Label>
           <Col xs={10}>
             <Input
