@@ -8,3 +8,7 @@
     font-size: 3rem;
   }
 }
+
+.skill-deck { display: flex; flex-direction: column; gap: 30px; }
+.skill-deck > .card { flex: 1; }
+@media (min-width: 576px) { .skill-deck { flex-direction: row; } }

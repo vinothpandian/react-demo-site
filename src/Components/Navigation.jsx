@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, NavLink, Nav, NavbarBrand, Collapse, NavbarToggler } from 'reactstrap';
 
-const logo = require('../Assets/logo.png');
+import logo from '../Assets/logo.png';
 
 class Navigation extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class Navigation extends Component {
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.open} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className="ms-auto" navbar>
             <NavItem>
               <NavLink href="#projects">Projects</NavLink>
             </NavItem>
