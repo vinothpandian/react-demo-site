@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 
-const backgroundImage = require('../Assets/cover.jpg');
+import backgroundImage from '../Assets/cover.jpg';
 
 const style = {
   header: {
